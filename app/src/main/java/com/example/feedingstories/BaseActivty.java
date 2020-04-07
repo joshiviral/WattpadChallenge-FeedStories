@@ -7,7 +7,7 @@ import android.widget.ProgressBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
-public class BaseActivty  extends AppCompatActivity {
+public abstract class BaseActivty  extends AppCompatActivity {
 public ProgressBar progressBar;
     @Override
     public void setContentView(int layoutResID) {

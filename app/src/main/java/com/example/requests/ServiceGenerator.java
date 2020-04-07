@@ -13,7 +13,7 @@ public class ServiceGenerator {
 
     private static FeedStoryApi feedStoryApi = retrofit.create(FeedStoryApi.class);
 
-    public FeedStoryApi getFeedStoryApi(){
+    public static FeedStoryApi getFeedStoryApi(){
         return feedStoryApi;
     }
 
