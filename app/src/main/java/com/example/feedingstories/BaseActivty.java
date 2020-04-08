@@ -14,7 +14,7 @@ public ProgressBar progressBar;
         ConstraintLayout constraintLayout = (ConstraintLayout) getLayoutInflater().inflate(R.layout.activity_base,null);
         FrameLayout frameLayout = constraintLayout.findViewById(R.id.activity_content);
         getLayoutInflater().inflate(layoutResID,frameLayout,true);
-        progressBar = constraintLayout.findViewById(R.id.progressBar);
+        progressBar = frameLayout.findViewById(R.id.progressBar);
         super.setContentView(layoutResID);
     }
     public void showProgressbar(boolean visibility)
